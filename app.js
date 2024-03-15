@@ -19,6 +19,7 @@ var profesoresRouter = require('./routes/profesores');
 var seccionesRouter = require('./routes/secciones');
 var usuariosRouter = require('./routes/usuarios');
 var authRouter = require('./routes/auth');
+var auth2Router = require('./routes/auth2');
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -32,8 +33,9 @@ app.use('/eventos', eventosRouter);
 app.use('/materias', materiasRouter);
 app.use('/profesores', profesoresRouter);
 app.use('/secciones', seccionesRouter);
-app.use('/usuarios', usuariosRouter);
+app.use('/usuarios', usuariosRouter)
 app.use('/auth', authRouter)
+app.use('/auth2', auth2Router)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
