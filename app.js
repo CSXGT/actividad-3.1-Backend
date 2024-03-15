@@ -31,6 +31,7 @@ app.use('/eventos', eventosRouter);
 app.use('/materias', materiasRouter);
 app.use('/profesores', profesoresRouter);
 app.use('/secciones', seccionesRouter);
+app.use('/usuarios', usuariosRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
