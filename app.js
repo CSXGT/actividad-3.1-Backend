@@ -17,6 +17,7 @@ var eventosRouter = require('./routes/eventos');
 var materiasRouter = require('./routes/materias');
 var profesoresRouter = require('./routes/profesores');
 var seccionesRouter = require('./routes/secciones');
+var usuariosRouter = require('./routes/usuarios');
 
 app.use(logger('dev'));
 app.use(express.json());
