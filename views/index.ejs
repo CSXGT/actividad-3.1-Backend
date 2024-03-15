@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+body {
+  text-align: center;
+}
+footer {
+  background-color: #80A841;
+  padding: 5px 0;
+  color: white;
+  width: 100%;
+  position: fixed;
+}
+
+.footer-p {
+  font-family: Helvetica;
+  color: white;
+  margin: 10px;
+}
+    </style>
+  </head>
+    <body>
+      <header>
+        <img src="https://uvm.edu.ve/wp-content/uploads/2022/10/LOGO-RIF.png" alt="Logo UVM">
+        <h1><%= title %></h1>
+      </header>
+    
+      <p>¡Bienvenido al <%= title %>!</p>
+
+      <a href="http://localhost:3000/secciones/">Secciones</a><br>
+      <a href="http://localhost:3000/materias/">Materias</a><br>
+      <a href="http://localhost:3000/profesores/">Profesores</a><br>
+      <a href="http://localhost:3000/eventos/">Eventos</a>
+      
+      <footer>
+        <p class="footer-p">Verónica Parra 30.600.365<br>Cristhofer Solarte 30.959.561<br> <em>&copy; Backend 2024. Unidad II</em></p>
+      </footer>
+    
+  </body>
+</html>
