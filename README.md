@@ -34,14 +34,11 @@ module.exports = {
       connection: {
         host: 'localhost',	   
         user: 'root',     // Cambiar por su nombre de usuario 
-        password: 'E^6BSR8y2Do@', // Cambiar por su contraseña
-        database: 'sistema_contable',
+        password: '', // Cambiar por su contraseña
+        database: 'basededatos',
       },
       migrations: {
         directory: './migrations', 
-        seeds: {
-          directory: './seeds', // Use si desea tablas con datos de cada entidad
-        },
       },
     },
 };
