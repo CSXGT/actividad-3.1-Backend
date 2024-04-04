@@ -21,6 +21,9 @@ Abre la terminal en Visual Studio Code. Ve al menú "Terminal" y selecciona "New
 Ejecuta el siguiente comando para instalar las dependencias del proyecto:
 npm install
 
+Crear un archivo .env con el siguiente dato:
+SECRETO=undostres
+
 Configuración de la Base de Datos:
 Accede a MySQL phpMyAdmin en tu gestor de base de datos local, puedes usar Xampp.
 Actualiza los valores de host, user, password y database con los datos de tu conexión a la base de datos.
